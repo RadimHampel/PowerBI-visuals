@@ -176,5 +176,6 @@
 /// <reference path="styles/visualStyles.ts"/>
 
 /// <reference path="visuals/donutChart.ts"/>
-
+/// <reference path="capabilities/BISmartChord.capabilities.ts"/>
+/// <reference path="visuals/BISmartChord.ts"/>
 /// <reference path="plugins.ts"/>

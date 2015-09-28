@@ -314,4 +314,9 @@ module powerbi.visuals.plugins {
         capabilities: samples.StreamGraph.capabilities,
         create: () => new samples.StreamGraph()
     };
+    export var biSmartChord: IVisualPlugin = {
+        name: 'biSmartChord',
+        capabilities: biSmartChord.capabilities,
+        create: () => new BISmartChord()
+    };
 }
